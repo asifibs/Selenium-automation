@@ -18,7 +18,7 @@ public class HandleInnerFrame {
         driver.switchTo().frame(frame1);
         driver.findElement(By.xpath("//input[@name='mytext1']")).sendKeys("Welcome");
 
-        driver.switchTo().defaultContent();
+        driver.switchTo().defaultContent(); //back to previous page
 
         //Frame2
         WebElement frame2=driver.findElement(By.xpath("//frame[@src='frame_2.html']"));

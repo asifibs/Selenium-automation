@@ -15,5 +15,4 @@ public class TakeScreenshot {
             FileHandler.copy(src, dest);
         }
 
-
     }
